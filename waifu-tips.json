@@ -1,0 +1,111 @@
+{
+	"mouseover": [{
+		"selector": "#live2d",
+		"text": ["Apa yang kamu lakukan? Cepat jauhkan tanganmu～", "Kursor... kursor (mouse)-nya salah tempat!", "Kamu mau apa sih?", "Meong meong?", "Takut banget (ノ≧∇≦)ノ", "Tolong! Pelecehan!", "Kalau begini, aku harus gunakan kekuatan!", "Aku akan marah nih～", "Jangan sentuh-sentuh aku!", "Kamu... benar-benar tidak tahu malu!", "Hentai!"]
+	}, {
+		"selector": "#waifu-tool-asteroids",
+		"text": ["Mau main perang pesawat?", "Tombol ini tertulis 'Jangan di Klik'.", "Mau bermain game denganku?", "Kudengar ini bisa bikin pesta dansa!"]
+	}, {
+		"selector": "#waifu-tool-switch-model",
+		"text": ["Apakah kamu tidak menyukaiku lagi? Hiks～", "Mau bertemu kakakku?", "Ingin lihat adikku?", "Ingin mengganti karakter waifu?"]
+	}, {
+		"selector": "#waifu-tool-switch-texture",
+		"text": ["Suka permainan ganti baju?", "Kali ini mau memainkan peran apa?", "Berganti pakaian!", "Mari lihat apa yang akan terjadi selanjutnya!"]
+	}, {
+		"selector": "#waifu-tool-quit",
+		"text": ["Sudah saatnya kita berpisah?", "Hiks QAQ Sampai jumpa lagi...", "Jangan tinggalkan aku...", "Apakah kita masih bisa bertemu lagi?", "Hmph, kamu akan menyesal!"]
+	}, {
+		"selector": ".menu-item a",
+		"text": ["Ayo lihat ada apa saja di sini?"]
+	}, {
+		"selector": ".site-author",
+		"text": ["Apakah pemilikku tampan?", "Ini adalah pemilikku (*´∇｀*)"]
+	}, {
+		"selector": ".followme",
+		"text": ["Scan dengan ponselmu untuk terus melihat, sangat praktis～", "Scan ini untuk membuka pintu dunia baru!"]
+	}, {
+		"selector": ".fancybox img, img.medium-zoom-image",
+		"text": ["Klik gambar untuk memperbesar!"]
+	}, {
+		"selector": ".copy-btn",
+		"text": ["Kode ini bisa langsung kamu salin dengan klik!"]
+	}],
+	"click": [{
+		"selector": "#live2d",
+		"text": ["Eh... tidak sengaja tersentuh ya...", "Kau lolicon!!", "Kamu lihat boneka beruangku?", "Kalau terus menyentuhku, aku akan lapor polisi!⌇●﹏●⌇", "Halo, 110? Ada seseorang yang terus menyentuhku (ó﹏ò｡)", "Jangan sentuh aku lagi, nanti aku laporkan ke istrimu!", "Kenapa menyentuhku! Nanti aku gigit!", "Jangan menyentuhku, apa sih menariknya!"]
+	}],
+	"seasons": [{
+		"date": "01/01",
+		"text": "<span>Tahun Baru</span> telah tiba, tahun yang baru dimulai lagi. Sekarang tahun {year}～"
+	}, {
+		"date": "02/14",
+		"text": "Hari ini adalah <span>Hari Valentine</span>. Apakah kamu sudah punya pasangan di tahun {year}～"
+	},
+	 {
+		"date": "03/08",
+		"text": "Hari ini adalah <span>Hari Perempuan Internasional</span>!"
+	}, {
+		"date": "03/12",
+		"text": "Hari ini adalah <span>Hari Menanam Pohon</span>. Jangan lupa untuk menjaga lingkungan!"
+	},{
+		"date": "03/22",
+		"text": "Hari ini adalah <span>Ulang tahun tuan kami</span>. Kalian semua diundang loh di acara tuan kami ^v^ {year}～"
+	}, 
+	{
+		"date": "04/01",
+		"text": "Mau tahu rahasia? <span>Hari ini adalah April Mop, jangan sampai tertipu ya～</span>"
+	}, {
+		"date": "05/01",
+		"text": "Hari ini adalah <span>Hari Buruh</span>. Sudah merencanakan liburan ke mana～"
+	}, {
+		"date": "06/01",
+		"text": "Selamat <span>Hari Anak</span>! Waktu bahagia selalu terasa singkat, bagaimana kalau kita tidak pernah tumbuh dewasa..."
+	}, {
+		"date": "09/03",
+		"text": "<span>Hari Peringatan Kemenangan Perang Tiongkok Melawan Jepang</span>. Ingat sejarah, hormati pahlawan, cintai perdamaian, dan ciptakan masa depan."
+	}, {
+		"date": "09/10",
+		"text": "<span>Hari Guru</span>, jangan lupa menyapa guru di sekolah～"
+	}, {
+		"date": "10/01",
+		"text": "<span>Hari Nasional</span> telah tiba, mari rayakan ulang tahun Ibu Pertiwi!"
+	}, {
+		"date": "11/05-11/12",
+		"text": "Dengan siapa kamu menghabiskan <span>Hari Belanja 11.11</span> tahun ini～"
+	}, {
+		"date": "12/20-12/31",
+		"text": "Ini adalah musim <span>Hari Natal</span>, pasti kamu sedang sibuk belanja～"
+	}],
+	"time": [{
+		"hour": "6-7",
+		"text": "Selamat pagi! Hari baru telah dimulai, semoga harimu menyenangkan～"
+	}, {
+		"hour": "8-11",
+		"text": "Selamat pagi! Semoga pekerjaanmu lancar, jangan lupa untuk sesekali berdiri dan bergerak ya!"
+	}, {
+		"hour": "12-13",
+		"text": "Sudah siang, waktunya istirahat makan siang setelah bekerja sepanjang pagi!"
+	}, {
+		"hour": "14-17",
+		"text": "Siang hari membuat mudah mengantuk ya, apakah target olahragamu hari ini sudah tercapai?"
+	}, {
+		"hour": "18-19",
+		"text": "Menjelang malam! Pemandangan matahari terbenam dari jendela sangat indah～"
+	}, {
+		"hour": "20-21",
+		"text": "Selamat malam, bagaimana harimu hari ini?"
+	}, {
+		"hour": "22-23",
+		"text": ["Sudah larut malam, waktunya tidur. Selamat malam～", "Jaga mata meski di waktu larut ya!"]
+	}, {
+		"hour": "0-5",
+		"text": "Apakah kamu burung malam? Begitu larut masih belum tidur, besok bisa bangun?"
+	}],
+	"message": {
+		"default": ["Lama tidak bertemu, waktu berlalu begitu cepat...", "Dasar nakal! Sudah berapa lama tidak menyapa aku, huh～", "Hai～ajak aku bermain yuk!", "Aku pukul dadamu pakai kepalan kecilku!", "Jangan lupa tambahkan halaman ini ke favorit ya!"],
+		"console": "Haha, kamu membuka konsol, mau lihat rahasiaku ya?",
+		"copy": "Apa yang kamu salin, ya? Jangan lupa tambahkan sumber jika ingin menyalin～",
+		"visibilitychange": "Ah, sayang <3 akhirnya kamu kembali～"
+	}
+}
+
