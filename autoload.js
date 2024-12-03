@@ -22,7 +22,6 @@ function loadExternalResource(url, type) {
 	});
 }
 
-if (screen.width >= 768) {
 	Promise.all([
 		loadExternalResource(live2d_path + "waifu.css", "css"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
@@ -36,7 +35,6 @@ if (screen.width >= 768) {
 			tools: [ "switch-model", "switch-texture", "quit"]
 		});
 	});
-}
 
 console.log(`
 	~~Tn Hz-sama~~
