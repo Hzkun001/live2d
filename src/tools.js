@@ -10,19 +10,6 @@ import showMessage from "./message.js";
 
 
 const tools = {
-    "asteroids": {
-        icon: fa_paper_plane,
-        callback: () => {
-            if (window.Asteroids) {
-                if (!window.ASTEROIDSPLAYERS) window.ASTEROIDSPLAYERS = [];
-                window.ASTEROIDSPLAYERS.push(new Asteroids());
-            } else {
-                const script = document.createElement("script");
-                script.src = "https://fastly.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
-                document.head.appendChild(script);
-            }
-        }
-    },
     "switch-model": {
         icon: fa_user_circle,
         callback: () => {}
