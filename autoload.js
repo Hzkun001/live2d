@@ -1,5 +1,5 @@
 
-const live2d_path = "https://fastly.jsdelivr.net/gh/Hzkun001/live2d@main/";
+const live2d_path = "https://tool.onedetermination.com/main/";
 
 function loadExternalResource(url, type) {
 	return new Promise((resolve, reject) => {
@@ -30,7 +30,7 @@ Promise.all([
     console.log("Live2D selesai dimuat.");
     initWidget({
         waifuPath: live2d_path + "waifu-tips.json",
-        cdnPath: "https://fastly.jsdelivr.net/gh/Hzkun001/NimeAPI/",
+        cdnPath: "https://cdn.jsdelivr.net/gh/AnymPedia/waifuku2d",
         tools: ["switch-model", "switch-texture", "quit"]
     });
 }).catch((err) => {
