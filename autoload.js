@@ -21,7 +21,7 @@ function loadExternalResource(url, type) {
 		}
 	});
 }
-
+if (window.innerWidth < 768) {
 	Promise.all([
 		loadExternalResource(live2d_path + "waifu.css", "css"),
 		loadExternalResource(live2d_path + "live2d.min.js", "js"),
@@ -35,6 +35,7 @@ function loadExternalResource(url, type) {
 			tools: [ "switch-model", "switch-texture", "quit"]
 		});
 	});
+}
 
 console.log(`
 	~~Tn Hz-sama~~
