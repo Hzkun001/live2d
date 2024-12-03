@@ -309,3 +309,21 @@
 		transform: translate(0, 0) rotate(0);
 	}
 }
+@media screen and (max-width: 768px) {
+    #waifu {
+        bottom: 10px;  /* Sesuaikan posisi model */
+        left: 10px;    /* Posisikan sedikit dari kiri */
+        z-index: 9999; /* Pastikan model berada di atas elemen lain */
+        width: 100px;  /* Sesuaikan ukuran model di perangkat mobile */
+    }
+
+    #live2d {
+        width: 100px;  /* Ukuran model yang lebih kecil untuk mobile */
+        height: auto;  /* Jaga rasio aspek */
+    }
+
+    #waifu-toggle {
+        left: 10px;    /* Posisi tombol untuk switch model */
+        bottom: 120px; /* Posisikan tombol di bawah model */
+    }
+}
