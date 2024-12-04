@@ -30,7 +30,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			cdnPath: "https://fastly.jsdelivr.net/gh/Hzkun001/NimeAPI/",
-			tools: [ "asteroids", "switch-model", "switch-texture", "quit"]
+			tools: [ "switch-model", "switch-texture", "quit"]
 		});
 	});
 }
